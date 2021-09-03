@@ -12,10 +12,10 @@ public class Main {
         // The Shape Task
         Shape c=new Circle(10);
         Shape s=new Square(10);
-        System.out.println(displayShape(c));
-        System.out.println(displayShape(s));
+        displayShape(c);
+        displayShape(s);
     }
-    public static String displayShape(Shape shape){
-        return "This shape is "+shape.getShapeName()+" and its area is equal to "+shape.getArea();
+    public static void displayShape(Shape shape){
+        System.out.println("This shape is "+shape.getShapeName()+" and its area is equal to " +shape.getArea());
     }
 }

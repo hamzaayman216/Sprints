@@ -1,4 +1,4 @@
-public interface Shape {
+public interface Shape <Shape> {
     String getShapeName();
     double getArea();
 
